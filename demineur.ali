@@ -1,0 +1,161 @@
+V "GNAT Lib v4.6"
+M P W=b
+P SS ZX
+R nnnnnnnnnnvnnnnnnnnnnnnnvvnnnvnnnnnnnvnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U demineur%b		demineur.adb		8fa00b96 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-comlin.ads		20100623092347 e0accaa5
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-numeri.ads		20080324174807 bb51c45a
+D a-nuflra.ads		20100622172941 49c50e0b
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D demineur.adb		20171027155420 e8efb348
+D interfac.ads		20090409150019 f77d8799
+D i-cstrea.ads		20100622165701 1bd72c32
+D system.ads		20140416172229 23e1f70b
+D s-conca2.ads		20090420091404 fbd0f2fc
+D s-conca4.ads		20090420091404 025fe3be
+D s-conca5.ads		20090420091404 1039cea1
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20091130110856 9c5d83fa
+D s-rannum.ads		20100623054052 5eb33f0a
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-valint.ads		20090409150019 48a52a3f
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r23 2r6 2r28 3r6 3r31 4r6 4r37
+X 2 a-comlin.ads
+38K13*Command_Line 139e21 15|2w10 2r32
+41V13*Argument_Count{natural} 15|53s20 219s8 223s21
+48V13*Argument{string} 15|54s30 55s30 85s43 86s51 190s37 190s67
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[13|45] 15|3w10 3r35
+X 8 a-numeri.ads
+16K13*Numerics 32e17 15|4r10 4r41
+X 9 a-nuflra.ads
+41K22*Float_Random 72e30 15|4w19 4r50
+45R9*Generator 15|71r10
+47F12*Uniformly_Distributed{float}
+49V13*Random{47F12}<29|62p13> 15|85s59 86s67
+51U14*Reset<29|91p14> 15|80s7
+X 12 a-textio.ads
+49K13*Text_IO 472e16 15|1w10 1r27
+52P9*File_Type(370R9)
+120V13*Standard_Error{52P9} 15|27s16 32s20 35s23 37s23 41s19 43s16
+167U14*New_Line 15|129s55
+242U14*Put 15|32s16 37s19
+243U14*Put 15|23s7 35s53 218s4 231s7 238s13 244s13 249s25
+260U14*Put_Line 15|27s7 41s10 43s7
+264U14*Put_Line 15|60s10 129s16 213s4 224s7 255s7 257s7 259s7 261s7 264s4
+X 13 a-tiinio.ads
+55U14*Get 15|220s7[6|18] 232s7[6|18] 239s13[6|18] 240s13[6|18] 245s13[6|18]
+. 246s13[6|18]
+59U14*Put 15|35s19[6|18]
+65U14*Put 15|25s10[6|18] 29s10[6|18] 129s32[6|18] 129s44[6|18]
+X 15 demineur.adb
+7U11*demineur 7b11 268l5 268t13
+9A9 T_Board(integer)<integer><integer> 21r35 50r42 69r42 119r79 161r65 190r12
+11A9 T_Display(boolean)<integer><integer> 20r47 102r44 119r53 160r46 160r68
+. 194r24
+20U14 Affichage 20b14 20>24 20>36 21>24 44l8 44t17 251s7 267s4
+20a24 Visibilite{11A9} 24r16 28r16 30r19 34r19
+20a36 Flags{11A9} 31r16
+21a24 Board{9A9} 35r38
+24i11 J{integer} 25r14
+28i11 I{integer} 29r14 31r22 34r30 35r44
+30i14 J{integer} 31r24 34r32 35r46
+50U14 Poser_Bombes 50b14 50=27 64l8 64t20 225s7
+50a27 Board{9A9} 57m10
+51i7 Li{integer} 54m10 57r16 61r35
+51i10 Co{integer} 55m10 57r20 61r61
+53i11 I{integer} 54r41 55r41
+69U14 Poser_Bombes 69b14 69=27 70>27 95l8 95t20 221s7
+69a27 Board{9A9} 74r19 75r19 89r21 91m21
+70i27 Nb{natural} 83r32
+71r4 Gen{9|45R9} 80r13 85r66 86r74
+74i4 X{integer} 85m10 89r27 91r27
+75i4 Y{integer} 86m18 89r30 91r30
+77i4 nbBombesSurBoard{integer} 83r13 92m21 92r41
+102U14 Poser_Drapeaux 102b14 102=29 102>55 102>72 102=89 116l8 116t22 241s13
+102a29 Flags{11A9} 107r10 108m10 112m10
+102i55 Li{integer} 107r16 108r16 112r16
+102i72 Co{integer} 107r20 108r20 112r20
+102i89 Nb_Drapeaux{natural} 109m10 109r25 111r13 113m10 113r25
+119U14 Decouvrir_Alentour 119b14 119=33 119=64 119>88 119>105 145s25 157l8
+. 157t26 169s10
+119a33 Visibilite{11A9} 139m13 144r25 145m44 153m13
+119a64 Board{9A9} 128r36 128r78 130r19 143r42 143r82 145m56 154m13
+119i88 Li{integer} 128r16 128r29 129r36 130r25 139r24 143r22 143r35 144r36
+. 145r63 153r24 154r19
+119i105 Co{integer} 128r58 128r71 129r48 130r31 139r28 143r62 143r75 144r42
+. 145r69 153r28 154r23
+121i7 nb_Bombes_Autour{integer} 131m19 131r39 138r13 154r30
+126i11 I{integer} 128r19 128r32 129r39 130r28
+127i14 J{integer} 128r61 128r74 129r51 130r34
+141i17 I{integer} 143r25 143r38 144r39 145r66
+142i20 J{integer} 143r65 143r78 144r45 145r72
+160U14 Ouvrir_Case 160b14 160=26 160>57 160=79 161=26 161=50 161>74 161>91
+. 161>108 187l8 187t19 247s13
+160a26 Visibilite{11A9} 169m29 172r19 173r22 174r19
+160a57 Flags{11A9} 168r32
+160b79 Gagne{boolean} 180m13
+161b26 Perdu{boolean} 183m10
+161a50 Board{9A9} 168r10 169m41 179r13 179r29 182r13
+161i74 Li{integer} 168r16 168r38 169r48 182r19
+161i91 Co{integer} 168r20 168r42 169r52 182r23
+161i108 Nb_Bombes{natural} 179r45
+164i4 Nb_Cases_Visibles{integer} 175m31 175r52 179r57
+172i14 i{integer} 174r30
+173i17 j{integer} 174r33
+190a4 Board{9A9} 194r34 194r49 197r20 198r20 214r25 216r25 221m20 225m20
+. 247m58 251r34 267r31
+194a4 Visibilite{11A9} 247m25 251r17 265r4 267r14
+194a16 Flags{11A9} 241m28 247r37 251r28 266r4 267r25
+197i4 Li{integer} 239m17 241r35 245m17 247r65
+198i4 Co{integer} 240m17 241r39 246m17 247r69
+200i4 Nb_Bombes{natural} 220m11 221r26 223m7 224r30 228r19 247r73
+200i15 Nb_Drapeaux{natural} 228m4 241m43
+202b4 Gagne{boolean} 247m44 252r18 256r10
+202b11 Perdu{boolean} 247m51 252r27 260r10
+202b18 Abandon{boolean} 235m20 252r37 254r7
+204i4 Start{integer} 229m4
+204i11 Temps{integer} 258m7 259r47
+206i4 Choix{natural} 232m11 233r12
+
